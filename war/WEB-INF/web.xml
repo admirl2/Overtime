@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+              http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5"
+         xmlns="http://java.sun.com/xml/ns/javaee">
+
+  <!-- Servlets -->
+  
+     
+  <servlet>
+    <servlet-name>greetServlet</servlet-name>
+    <servlet-class>com.supp.work.soft.server.GreetingServiceImpl</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>greetServlet</servlet-name>
+    <url-pattern>/drh_suppwork_soft/greet</url-pattern>
+  </servlet-mapping>
+ 
+  
+  <servlet>
+		<servlet-name>report</servlet-name>
+		<servlet-class>com.supp.work.soft.server.ReportServlet
+		</servlet-class>
+	</servlet>
+  
+  
+  <servlet-mapping>
+		<servlet-name>report</servlet-name>
+		<url-pattern>/drh_suppwork_soft/report</url-pattern>
+	</servlet-mapping>
+  
+  
+  
+  <servlet>
+    <servlet-name>archive</servlet-name>
+    <servlet-class>com.supp.work.soft.server.ArchiveServiceImpl</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+		<servlet-name>archive</servlet-name>
+		<url-pattern>/drh_suppwork_soft/archive</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	    <servlet-name>userServlet</servlet-name>
+	    <servlet-class>com.supp.work.soft.server.UserServiceImpl</servlet-class>
+ 	 </servlet>
+  
+   <servlet-mapping>
+    <servlet-name>userServlet</servlet-name>
+    <url-pattern>/drh_suppwork_soft/user</url-pattern>
+  </servlet-mapping>
+  
+    
+   
+   
+   
+  
+  
+  <!-- Default page to serve -->
+  <welcome-file-list>
+    <welcome-file>DRH_SUPPWORK_SOFT.html</welcome-file>
+  </welcome-file-list>
+
+</web-app>

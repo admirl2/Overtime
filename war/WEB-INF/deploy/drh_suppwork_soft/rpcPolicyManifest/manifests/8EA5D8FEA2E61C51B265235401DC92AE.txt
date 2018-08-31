@@ -1,0 +1,2 @@
+serviceClass: com.supp.work.soft.client.service.ArchiveService
+path: EE43D027A045E7D06A98EED8032998CA.gwt.rpc

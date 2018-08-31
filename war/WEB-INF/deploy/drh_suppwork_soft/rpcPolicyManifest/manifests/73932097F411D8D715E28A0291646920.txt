@@ -1,0 +1,2 @@
+serviceClass: com.supp.work.soft.client.service.UserService
+path: 95B3A4155DF8DD595521009CE0098E0D.gwt.rpc

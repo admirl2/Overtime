@@ -1,0 +1,12 @@
+@FinalFields, false
+com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException, true, true, true, true, com.google.gwt.user.client.rpc.IncompatibleRemoteServiceException/3936916533, 3936916533
+com.google.gwt.user.client.rpc.RpcTokenException, true, true, false, false, com.google.gwt.user.client.rpc.RpcTokenException/2345075298, 2345075298
+com.google.gwt.user.client.rpc.XsrfToken, false, false, true, true, com.google.gwt.user.client.rpc.XsrfToken/4254043109, 4254043109
+com.supp.work.soft.client.service.ArchiveService, false, false, false, false, _, 879072849
+com.supp.work.soft.shared.model.Archiveemployes, true, true, true, true, com.supp.work.soft.shared.model.Archiveemployes/2390759304, 2390759304
+@ClientFields,com.supp.work.soft.shared.model.Archiveemployes,archiveemployesPK,nom,prenom,salaire,fonction,horaireRegulier,lundi,mardi,mercredi,jeudi,vendredi,samedi,dimanche,valeurAPayer,totalHeuresS,totalHeureW,totalHeures,raison,direction,service,creerPar,creerLe,modifierPar,modifierLe,conge
+com.supp.work.soft.shared.model.ArchiveemployesPK, true, true, true, true, com.supp.work.soft.shared.model.ArchiveemployesPK/2458996385, 2458996385
+java.lang.Exception, true, false, true, false, java.lang.Exception/1920171873, 1920171873
+java.lang.RuntimeException, true, false, true, false, java.lang.RuntimeException/515124647, 515124647
+java.lang.String, true, true, true, true, java.lang.String/2004016611, 2004016611
+java.lang.Throwable, true, false, true, false, java.lang.Throwable/2953622131, 2953622131

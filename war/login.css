@@ -1,0 +1,172 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+/**Style de l'entete de la page*/
+.entete{
+	font-size:25px;
+	margin-left:45px;
+	margin-top:30px;
+}
+.gVerticalPanelLog{
+	width:100%;	
+	margin-top:30px;
+}
+
+.form{
+	text-align:center;
+	width:350px;
+	height:450px;
+	border-top: 2px solid red;
+	border-right: 2px solid red;
+	border-left: 2px solid red;
+	border-bottom: 2px solid red;
+}
+
+.logoLogin{
+	margin-left:120px;
+	margin-top:30px;
+	margin-bottom:0;
+}
+.vPanel1{
+	position:relative;
+	padding:16px 0 8px 0;
+	height:72px;
+	margin-left:20px;
+}
+
+.vPanel2{
+	height:72px;
+	position:relative;
+	padding:16px 0 8px 0;
+	margin-left:20px;
+}
+
+.vPanel3{
+	position:relative;
+	padding:16px 0 8px 0;
+	height:72px;
+	margin-left:20px;
+}
+
+.label{
+	position:relative;
+	margin:0;
+	color:blue;
+	line-height:16px;
+	font-size:16px;
+	font-weight:400;
+	display:block;
+	transform:translateY(24px);
+	transition:transform 0.3s, font-size 0.3s;
+}
+
+
+.text{
+	position:relative;
+	display:block;
+	width:300px;
+	height:25px;
+	font-family:Roboto;
+	font-size:16px;
+	background:transparent;
+	padding:12px 0;
+	line-height:16px;
+	border:none;
+	-webkit-appearance:none;
+	outline:none;	
+}
+
+.vPanel1::after, .vPanel1::before{
+	content:'';
+	height:2px;
+	width:100%;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	background-color:#e7e7e7;
+}
+
+.vPanel2::after, .vPanel2::before{
+	content:'';
+	height:2px;
+	width:100%;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	background-color:#e7e7e7;
+}
+
+.vPanel3::after, .vPanel3::before{
+	content:'';
+	height:2px;
+	width:100%;
+	position:absolute;
+	bottom:20px;
+	left:0;
+	background-color:#e7e7e7;
+}
+
+
+.vPanel1::after{	
+	transform:scaleX(0.75);
+	transition:transform 0.7s;
+	background-color:blue;
+	
+}
+
+.vPanel2::after{	
+	transform:scaleX(1);
+	transition:transform 0.7s;
+	background-color:rgb(171,199,239);
+	
+}
+
+.vPanel3::after{	
+	transform:scaleX(1);
+	transition:transform 0.7s;
+	background-color:red;
+	
+}
+
+.label1 {
+	transform:translateY(10px);
+	font-size:12px;
+	color:rgb(181,181,181);
+	transition:transform 0.3s, font-size 0.3s;
+}
+
+.label2 {
+	transform:translateY(10px);
+	font-size:12px;
+	color:red;
+	transition:transform 0.3s, font-size 0.3s;
+}
+.loginError{
+	color:red;
+	text-align:center;
+}
+
+.valider{
+	margin-left:20px;
+	display: inline-block;
+	padding: 5px 12px;
+	margin-bottom: 50px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	background-color: blue;
+	border-color: #46b8da;
+	width:300px;
+}

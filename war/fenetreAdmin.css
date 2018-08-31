@@ -1,0 +1,104 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+/**Style de l'entete de la page*/
+.fenetreAdmin{
+	display: inline-block;
+	padding: 5px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #000000;
+	background-color: #0080ff;
+	border-color: #ffffff;
+	width:240px;
+}
+.dHS{
+	border-left:none;
+}
+.panelCorpsFenetreAdmin{
+	margin-left:10px;	
+}
+.gHPanel2{
+	
+}
+.separator{
+	width:2px;
+	height:600px;
+	background-color: #dddddd;
+	margin-left:10px;
+}
+.vPImageArchive{
+	position:relative;
+	display: inline-block;
+	
+}
+.lCoteDroit{
+	font-size: 18px;
+	text-align:center;
+	background-color:white;
+}
+.imageCoteDroit{
+	text-align:center;
+}
+.vPImageForm{
+	/**position:absolute;*/
+	background-color: black;
+	/**	transform:translate(100%,100%);
+	border-bottom: 2px solid rgb(212,214,000);
+	border-top: 2px solid rgb(212,214,000);
+	border-left: 2px solid rgb(212,214,000);
+	border-right: 2px solid rgb(212,214,000);*/
+}
+
+.vPImageForm:hover{
+	background-color: white;
+	transform:translateY(100000px);
+	transform:scaleY(0.85);
+	transition:transform 0.79s;
+
+}
+.vueRapportMensuel{
+	width:300px;
+}
+.bExportvueRapportMensuel{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+	margin-left:-3px;
+}
+.libelevueRapportMensuel{
+	font-size:18px;
+	text-align:center;
+	margin-bottom:20px;
+}

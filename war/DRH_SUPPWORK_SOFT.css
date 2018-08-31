@@ -1,0 +1,224 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+/**Style de l'entete de la page*/
+.info {
+	font-size: 40px;
+	margin-left: 0px;
+	text-align:center;
+	color: red;
+	margin-top:5px;
+	border-bottom: 2px solid blue;
+}
+
+.infoAndlMef{
+	margin-left: 40px;
+	margin-right: 60px;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.logo {
+	margin-left: 0px;
+	margin-top:0px;
+}
+.textMEF{
+	text-align:center;
+	margin-top:-20px;
+}
+.login {
+	width:100%;
+	border-top: 3px solid red;
+	margin-top:-10px;
+	margin-left:-10px;
+}
+.lSysteme{
+	font-size:60px;
+	margin-left: 0px;
+}
+
+.lMef {
+	font-size: 68px;
+	color: blue;
+	margin-left: 0px;
+	font-weight: bold;
+}
+
+.gHPanelEntete {
+	
+	width:100%;
+	margin-bottom:10px;
+	border-bottom: 3px solid red;
+	margin-left:-10px;
+}
+
+.log {
+	display: inline-block;
+	padding: 6px 12px;
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: none;
+	margin-left: 1170px;
+	margin-top: 10px;
+	width: 100px;
+	color: red;
+	background-color: white;
+}
+.dateEtJour{
+	margin-left:63px;
+	
+}
+.mois{
+	margin-left:10px;
+}
+.deuxiemeForm{
+	margin-top:5px;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+
+.teteForm{
+	margin-top:20px;
+}
+
+.recherche{
+	height:24px;
+}
+
+.hPanelBouton{
+	margin-left:35px;
+}
+
+.sPTable2{
+	background-color:red;
+	color:white;
+	margin-left:65px;
+}
+
+.nbrH{
+	font-size:15px;
+	margin-left:30px;
+}
+
+.bRecherche{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+}
+
+.bExport{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+
+.bModifier{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+
+.bEnregistrer{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border: 1px solid transparent;
+	color: #fff;
+	width: 100px;
+	height: 30px;
+	background-color: blue;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	border-left: 3px solid red;
+	border-right: 3px solid red;
+}
+
+.messageFormulaire{
+	text-align:center;
+	color:green;
+}
+.systeme{
+	text-align:left;
+}
+.defSYSCHS{
+	font-size: 15px;
+	text-align:left;
+	color:blue;
+	border-top: 3px solid yellow;
+}

@@ -1,0 +1,2 @@
+serviceClass: com.supp.work.soft.client.GreetingService
+path: 9F350793E34FA6BCBB4E66334A077500.gwt.rpc

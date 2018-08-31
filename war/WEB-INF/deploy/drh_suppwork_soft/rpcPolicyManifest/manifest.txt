@@ -1,0 +1,5 @@
+# Module drh_suppwork_soft
+# RPC service class, partial path of RPC policy file
+com.supp.work.soft.client.service.UserService, 95B3A4155DF8DD595521009CE0098E0D.gwt.rpc
+com.supp.work.soft.client.service.ArchiveService, EE43D027A045E7D06A98EED8032998CA.gwt.rpc
+com.supp.work.soft.client.GreetingService, 9F350793E34FA6BCBB4E66334A077500.gwt.rpc
